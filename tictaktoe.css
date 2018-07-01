@@ -1,0 +1,55 @@
+body{
+    background:linear-gradient(to right, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(253,255,255,1) 100%,rgba(177,216,245,1) 100%);
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+#main{
+    position:absolute;
+    left:35%;
+    background: transparent;
+    height: 306px;
+    width: 306px;
+}
+.div{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: #85C1E9;
+    border: 1px solid white;
+    color: black;
+    text-align: center;
+    font-size: 90px;
+    overflow: hidden;
+}
+#choice,#whoseTurn{
+    position: absolute;
+    top: 20%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.turn{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+button{
+    background: lightgreen;
+}
+@keyframes tosss{
+    0%{left: -10%};
+    100%{left: 2%};
+}
+footer{
+    text-align: center;
+    margin-top: 46%;
+    color:blue;
+    font-size: 20px;
+}
+#heart{
+    color: red;
+    font-size: 25px;
+}
