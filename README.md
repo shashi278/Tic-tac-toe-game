@@ -1,2 +1,3 @@
 # Tic-tac-toe-game
-Try to beat computer 😎
+Try to beat the A.I.
+
